@@ -1,0 +1,29 @@
+{
+    "name": "geometry-dash-chinese/geometry-dash-algorithm",
+    "description": "Geometry Dash Algorithm",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "渣渣120",
+            "email": "WOSHIZHAZHA120@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GeometryDashChinese\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GeometryDashChinese\\GeometryDashAlgorithm\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "spomky-labs/base64url": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
