@@ -5,7 +5,7 @@ namespace GeometryDashChinese;
 use Base64Url\Base64Url;
 use GeometryDashChinese\enums\Salts;
 
-class GDAlgorithm
+class GeometryDashAlgorithm
 {
     public static int $perPage = 10;
 

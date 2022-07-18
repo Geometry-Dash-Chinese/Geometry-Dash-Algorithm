@@ -16,7 +16,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "GeometryDashChinese\\GeometryDashAlgorithm\\Tests\\": "tests/"
+            "GeometryDashChinese\\Tests\\": "tests/"
         }
     },
     "require": {
